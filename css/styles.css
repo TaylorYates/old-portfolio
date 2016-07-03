@@ -1,0 +1,112 @@
+/*base page styles*/
+body {
+  font-family: 'Domine', serif;
+  font-weight: 100;
+  background-color: #FFFAF0;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 10px;
+  max-width: 700px;
+  width: 50%;
+}
+
+/*general nav styling*/
+nav {
+  font-weight: bold;
+  text-align: left;
+}
+
+/*top nav links color override. Social media link color override in footer a*/
+nav a {
+  color: #000;
+}
+
+/*active top nav links only*/
+nav .active {
+  text-decoration: none;
+  font-style: italic;
+}
+
+/*decoration lines*/
+hr {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  border-style: dashed;
+  border-width: 1px;
+  clear: left;
+}
+
+/*text styles*/
+h1 {
+  color: #F16059;
+  text-align:left;
+  font-family: 'Petit Formal Script', cursive;
+  font-size: 48px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 18px;
+  text-align: left;
+  width: 70%;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 16px;
+  text-align: left;
+  width: 70%;
+  font-weight: bold;
+}
+
+p {
+  text-align: left;
+  line-height: 1.5
+}
+
+/*about page image*/
+.about {
+  width: 200px;
+  height: 150px;
+  float: right;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+
+/*portfolio page images*/
+.portfolioImage {
+  float: left;
+  width: 33%;
+  box-sizing: border-box;
+  padding-right: 5px;
+}
+
+.portfolioImage:last-of-type{
+  padding-right: 0px;
+}
+
+.portfolioImage img {
+  width: 200px;
+  height: 150px;
+  max-width: 100%;
+}
+
+.portfolio {
+  float: left;
+  width: 100%
+}
+
+/*article links in portfolio page*/
+.links {
+  font-weight: bold;
+  color: #000;
+}
+
+/*social media links color override*/
+footer a {
+  font-weight: bold;
+  color: #000;
+}
