@@ -6,8 +6,8 @@ body {
   margin-left: auto;
   margin-right: auto;
   padding-bottom: 10px;
-  max-width: 700px;
-  width: 50%;
+  max-width: 1000px;
+  width: 75%;
 }
 
 /*general nav styling*/
@@ -61,6 +61,23 @@ h3 {
   font-weight: bold;
 }
 
+.note {
+  font-size: 16px;
+  width: 80%;
+  display: inline-block;
+  text-align: center;
+  border: dashed 2px #000;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.h3note {
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
 p {
   text-align: left;
   line-height: 1.5
@@ -77,16 +94,6 @@ p {
 }
 
 /*portfolio page images*/
-.portfolioImage {
-  float: left;
-  width: 33%;
-  box-sizing: border-box;
-  padding-right: 5px;
-}
-
-.portfolioImage:last-of-type{
-  padding-right: 0px;
-}
 
 .portfolioImage img {
   width: 200px;
@@ -94,10 +101,17 @@ p {
   max-width: 100%;
 }
 
-.portfolio {
-  float: left;
-  width: 100%
+.portfolioImage {
+  flex-basis: 33%;
 }
+
+.row {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+
 
 /*article links in portfolio page*/
 .links {
